@@ -1,0 +1,25 @@
+How To Create an Object:
+
+ClassName objectName = new ClassName();
+
+ClassName objectName -> This is the declaration of the object.
+new ClassName() -> Instantiation of the object. (Memory allocation)
+
+Array:
+
+int arr[] = new int[5];
+
+declaration:
+1d-array
+> int arr[]
+> int[] arr
+> int []arr
+instantiation -> new int[5]
+
+2d-array
+> int[][] arr
+> int [][]arr
+> int arr[][]
+> int []arr[]
+> int[] []arr
+instantiation -> new int[5][5]
