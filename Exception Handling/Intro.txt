@@ -1,0 +1,6 @@
+The Exception Handling in java is a powerful mechanism to handle the runtime errors.
+
+> helps the program in a normal continuious flow of execution.
+
+Exception: Abnormal Condition
+In java, an exception is an event that disrupts the normal flow of the program. it is an object which is thrown at runtime.
