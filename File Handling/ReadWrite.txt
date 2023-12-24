@@ -1,0 +1,1 @@
+same data but using reader and writer class in java

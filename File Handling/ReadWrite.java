@@ -1,18 +1,18 @@
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.util.Scanner;
 
 class FileHandler {
-    FileOutputStream fout = null;
-    FileInputStream fin = null;
+    FileWriter fout = null;
+    FileReader fin = null;
     Scanner sc = new Scanner(System.in);
 
     public void writeFile(String fileName, String folderPath) {
       if (folderPath == null) folderPath = "";
         try {
-            fout = new FileOutputStream(fileName + folderPath + ".txt");
+            fout = new FileWriter(fileName + folderPath + ".txt");
             System.out.println("Enter the data you want to write into " + fileName);
-            byte[] data = sc.nextLine().getBytes();
+            String data = sc.nextLine();
 
             fout.write(data);
             fout.close();
@@ -25,7 +25,7 @@ class FileHandler {
     public void readFile(String fileName, String folderPath) {
       if (folderPath == null) folderPath = "";
         try {
-            fin = new FileInputStream(fileName + folderPath + ".txt");
+            fin = new FileReader(fileName + folderPath + ".txt");
             int i=0;
             while(  (i = fin.read()) != -1 ) System.out.print((char)i);
 
@@ -37,7 +37,7 @@ class FileHandler {
     }
 }
 
-public class FIlesss {
+public class ReadWrite {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         FileHandler fh = new FileHandler();
