@@ -32,8 +32,41 @@ public class ArrList {
         System.out.println(l);
         // System.out.println(l1);
 
+        // System.out.println(l.get(2));
 
-        System.out.println(l.get(2));
+        // for (String string : l) {
+        //     System.out.println(string);
+        // }
+
+        // l.clear();
+
+        // iterate - Iterable class
+        // Iterator<String> bhagwaans = l.iterator();
+
+        // while(bhagwaans.hasNext()) {
+        //     System.out.println(bhagwaans.next());
+        // }
+
+        // l.set(0, "Ramchandra");
+        
+        // l.remove(2);
+        // l.remove("Hanuman");
+        
+        // ArrayList<String> l1 = new ArrayList<>();
+        // l1.add("Hanuman");
+        // l1.add("Swaminarayan");
+        // l.removeAll(l1);
+
+        // System.out.println(l.size());
+
+        // Object arr[] = l.toArray();
+        // String str[] = new String[l.size()];
+        // System.out.println(Arrays.toString(arr));
+
+
+        // System.out.println(l.contains("Shiv"));
+        // System.out.println(l.containsAll(l1));
+        // System.out.println(l);
     }
 }
 
